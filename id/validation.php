@@ -58,6 +58,7 @@ return [
     "regex"                => "Format isian :attribute tidak valid.",
     "required"             => "Inputan :attribute harus diisi.",
     "required_if"          => "Inputan :attribute harus diisi ketika :other diisi :value.",
+    "required_unless"      => "Inputan :attribute harus diisi kecuali :other diisi :value.",
     "required_with"        => "Inputan :attribute harus diisi ketika :values diisi.",
     "required_with_all"    => "Inputan :attribute harus diisi ketika :values diisi.",
     "required_without"     => "Inputan :attribute harus diisi ketika :values tidak diisi.",
