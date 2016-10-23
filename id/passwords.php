@@ -4,7 +4,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Password Reminder Language Lines
+    | Password Reset Language Lines
     |--------------------------------------------------------------------------
     |
     | The following language lines are the default lines which match reasons
@@ -13,10 +13,10 @@ return [
     |
     */
 
-    "password" => "Password minimal harus 6 karakter dan sama dengan konfirmasi.",
-    "user"     => "Pengguna dengan email tersebut tidak ditemukan.",
-    "token"    => "Token reset password tidak valid.",
-    "sent"     => "Pengingat password telah dikirim ke email anda!",
-    "reset"    => "Password berhasil direset!",
+    'password' => 'Password minimal harus 6 karakter dan harus sesuai dengan konfirmasi password.',
+    'reset' => 'Password berhasil direset!',
+    'sent' => 'Link reset password telah dikirim ke email anda!',
+    'token' => 'Token reset password tidak valid.',
+    'user' => "Pengguna dengan email tersebut tidak ditemukan.",
 
 ];
