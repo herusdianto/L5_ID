@@ -16,11 +16,13 @@ return [
     'accepted'             => 'Inputan :attribute harus diterima.',
     'active_url'           => 'Inputan :attribute bukan URL yang valid.',
     'after'                => 'Inputan :attribute harus tanggal setelah :date.',
+    'after_or_equal'       => 'Inputan :attribute harus tanggal setelah atau sama dengan :date.',
     'alpha'                => 'Inputan :attribute harus berupa huruf.',
     'alpha_dash'           => 'Inputan :attribute harus berupa huruf, angka, dan garis bawah.',
     'alpha_num'            => 'Inputan :attribute harus berupa huruf dan angka.',
     'array'                => 'Inputan :attribute harus berupa array.',
     'before'               => 'Inputan :attribute harus tanggal sebelum :date.',
+    'before_or_equal'      => 'Inputan :attribute harus tanggal sebelum atau sama dengan :date.',
     'between'              => [
         'numeric' => 'Inputan :attribute harus antara :min dan :max.',
         'file'    => 'Inputan :attribute harus antara :min dan :max kilobytes.',
@@ -45,6 +47,8 @@ return [
     'in_array'             => 'Inputan :attribute tidak ditemukan pada :other.',
     'integer'              => 'Inputan :attribute harus berupa integer.',
     'ip'                   => 'Inputan :attribute harus berupa alamat IP.',
+    'ipv4'                 => 'Inputan :attribute harus berupa alamat IPv4.',
+    'ipv6'                 => 'Inputan :attribute harus berupa alamat IPv6.',
     'json'                 => 'Inputan :attribute harus berupa JSON.',
     'max'                  => [
         'numeric' => 'Inputan :attribute tidak boleh lebih dari :max.',
